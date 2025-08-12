@@ -1,7 +1,64 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\rafael.ramirez\\source\\repos\\GestionAnticiposApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8ECF97AA-7052-A617-CCA8-947C7B2A95A9}|GestionAnticiposApp.csproj|c:\\users\\rafael.ramirez\\source\\repos\\gestionanticiposapp\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ECF97AA-7052-A617-CCA8-947C7B2A95A9}|GestionAnticiposApp.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ECF97AA-7052-A617-CCA8-947C7B2A95A9}|GestionAnticiposApp.csproj|c:\\users\\rafael.ramirez\\source\\repos\\gestionanticiposapp\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8ECF97AA-7052-A617-CCA8-947C7B2A95A9}|GestionAnticiposApp.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ECF97AA-7052-A617-CCA8-947C7B2A95A9}|GestionAnticiposApp.csproj|c:\\users\\rafael.ramirez\\source\\repos\\gestionanticiposapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ECF97AA-7052-A617-CCA8-947C7B2A95A9}|GestionAnticiposApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ECF97AA-7052-A617-CCA8-947C7B2A95A9}|GestionAnticiposApp.csproj|c:\\users\\rafael.ramirez\\source\\repos\\gestionanticiposapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8ECF97AA-7052-A617-CCA8-947C7B2A95A9}|GestionAnticiposApp.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ECF97AA-7052-A617-CCA8-947C7B2A95A9}|GestionAnticiposApp.csproj|c:\\users\\rafael.ramirez\\source\\repos\\gestionanticiposapp\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8ECF97AA-7052-A617-CCA8-947C7B2A95A9}|GestionAnticiposApp.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ECF97AA-7052-A617-CCA8-947C7B2A95A9}|GestionAnticiposApp.csproj|c:\\users\\rafael.ramirez\\source\\repos\\gestionanticiposapp\\migrations\\20250812164914_initialidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ECF97AA-7052-A617-CCA8-947C7B2A95A9}|GestionAnticiposApp.csproj|solutionrelative:migrations\\20250812164914_initialidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ECF97AA-7052-A617-CCA8-947C7B2A95A9}|GestionAnticiposApp.csproj|c:\\users\\rafael.ramirez\\source\\repos\\gestionanticiposapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ECF97AA-7052-A617-CCA8-947C7B2A95A9}|GestionAnticiposApp.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ECF97AA-7052-A617-CCA8-947C7B2A95A9}|GestionAnticiposApp.csproj|c:\\users\\rafael.ramirez\\source\\repos\\gestionanticiposapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8ECF97AA-7052-A617-CCA8-947C7B2A95A9}|GestionAnticiposApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ECF97AA-7052-A617-CCA8-947C7B2A95A9}|GestionAnticiposApp.csproj|c:\\users\\rafael.ramirez\\source\\repos\\gestionanticiposapp\\areas\\identity\\data\\gestionanticiposappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ECF97AA-7052-A617-CCA8-947C7B2A95A9}|GestionAnticiposApp.csproj|solutionrelative:areas\\identity\\data\\gestionanticiposappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ECF97AA-7052-A617-CCA8-947C7B2A95A9}|GestionAnticiposApp.csproj|c:\\users\\rafael.ramirez\\source\\repos\\gestionanticiposapp\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8ECF97AA-7052-A617-CCA8-947C7B2A95A9}|GestionAnticiposApp.csproj|solutionrelative:areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ECF97AA-7052-A617-CCA8-947C7B2A95A9}|GestionAnticiposApp.csproj|c:\\users\\rafael.ramirez\\source\\repos\\gestionanticiposapp\\areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8ECF97AA-7052-A617-CCA8-947C7B2A95A9}|GestionAnticiposApp.csproj|solutionrelative:areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ECF97AA-7052-A617-CCA8-947C7B2A95A9}|GestionAnticiposApp.csproj|c:\\users\\rafael.ramirez\\source\\repos\\gestionanticiposapp\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8ECF97AA-7052-A617-CCA8-947C7B2A95A9}|GestionAnticiposApp.csproj|solutionrelative:areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ECF97AA-7052-A617-CCA8-947C7B2A95A9}|GestionAnticiposApp.csproj|c:\\users\\rafael.ramirez\\source\\repos\\gestionanticiposapp\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8ECF97AA-7052-A617-CCA8-947C7B2A95A9}|GestionAnticiposApp.csproj|solutionrelative:scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ECF97AA-7052-A617-CCA8-947C7B2A95A9}|GestionAnticiposApp.csproj|c:\\users\\rafael.ramirez\\source\\repos\\gestionanticiposapp\\gestionanticiposapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8ECF97AA-7052-A617-CCA8-947C7B2A95A9}|GestionAnticiposApp.csproj|solutionrelative:gestionanticiposapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,15 +66,197 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rafael.ramirez\\source\\repos\\GestionAnticiposApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\rafael.ramirez\\source\\repos\\GestionAnticiposApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T14:23:57.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\rafael.ramirez\\source\\repos\\GestionAnticiposApp\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\rafael.ramirez\\source\\repos\\GestionAnticiposApp\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-12T14:25:48.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\rafael.ramirez\\source\\repos\\GestionAnticiposApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\rafael.ramirez\\source\\repos\\GestionAnticiposApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAWwDEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T14:35:18.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\rafael.ramirez\\source\\repos\\GestionAnticiposApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\rafael.ramirez\\source\\repos\\GestionAnticiposApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAIwE0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T17:06:02.249Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GestionAnticiposAppContext.cs",
+              "DocumentMoniker": "C:\\Users\\rafael.ramirez\\source\\repos\\GestionAnticiposApp\\Areas\\Identity\\Data\\GestionAnticiposAppContext.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Data\\GestionAnticiposAppContext.cs",
+              "ToolTip": "C:\\Users\\rafael.ramirez\\source\\repos\\GestionAnticiposApp\\Areas\\Identity\\Data\\GestionAnticiposAppContext.cs",
+              "RelativeToolTip": "Areas\\Identity\\Data\\GestionAnticiposAppContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T14:35:09.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\rafael.ramirez\\source\\repos\\GestionAnticiposApp\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\rafael.ramirez\\source\\repos\\GestionAnticiposApp\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T14:52:36.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\rafael.ramirez\\source\\repos\\GestionAnticiposApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\rafael.ramirez\\source\\repos\\GestionAnticiposApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T17:05:58.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\rafael.ramirez\\source\\repos\\GestionAnticiposApp\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\rafael.ramirez\\source\\repos\\GestionAnticiposApp\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T16:45:34.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250812164914_InitialIdentity.cs",
+              "DocumentMoniker": "C:\\Users\\rafael.ramirez\\source\\repos\\GestionAnticiposApp\\Migrations\\20250812164914_InitialIdentity.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250812164914_InitialIdentity.cs",
+              "ToolTip": "C:\\Users\\rafael.ramirez\\source\\repos\\GestionAnticiposApp\\Migrations\\20250812164914_InitialIdentity.cs",
+              "RelativeToolTip": "Migrations\\20250812164914_InitialIdentity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T16:49:15.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\rafael.ramirez\\source\\repos\\GestionAnticiposApp\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\rafael.ramirez\\source\\repos\\GestionAnticiposApp\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T15:07:38.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\rafael.ramirez\\source\\repos\\GestionAnticiposApp\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\rafael.ramirez\\source\\repos\\GestionAnticiposApp\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T15:07:36.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\rafael.ramirez\\source\\repos\\GestionAnticiposApp\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\rafael.ramirez\\source\\repos\\GestionAnticiposApp\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T14:35:16.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\rafael.ramirez\\source\\repos\\GestionAnticiposApp\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\rafael.ramirez\\source\\repos\\GestionAnticiposApp\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-08-12T14:27:49.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GestionAnticiposApp",
+              "DocumentMoniker": "C:\\Users\\rafael.ramirez\\source\\repos\\GestionAnticiposApp\\GestionAnticiposApp.csproj",
+              "RelativeDocumentMoniker": "GestionAnticiposApp.csproj",
+              "ToolTip": "C:\\Users\\rafael.ramirez\\source\\repos\\GestionAnticiposApp\\GestionAnticiposApp.csproj",
+              "RelativeToolTip": "GestionAnticiposApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-12T14:26:00.519Z",
+              "EditorCaption": ""
             }
           ]
         }
