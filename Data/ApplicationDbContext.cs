@@ -18,7 +18,6 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     public DbSet<ProcesoVinculado> ProcesosVinculados { get; set; }
     public DbSet<Documento> Documentos { get; set; }
 
-
     protected override void OnModelCreating(ModelBuilder builder)
     {
         base.OnModelCreating(builder);
@@ -29,6 +28,7 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
             .HasForeignKey(u => u.PersonaId)
             .OnDelete(DeleteBehavior.Restrict);
 
+
         builder.Entity<Persona>().ToTable("Personas");
         builder.Entity<Aprobacion>().ToTable("Aprobaciones");
         builder.Entity<Notificacion>().ToTable("Notificaciones");
@@ -36,59 +36,60 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
         builder.Entity<ProcesoVinculado>().ToTable("ProcesosVinculados");
         builder.Entity<Documento>().ToTable("Documento");
 
+
         builder.Entity<Contrato>()
             .HasOne(c => c.Persona)
-            .WithMany()
+            .WithMany(p => p.Contratos)
             .HasForeignKey(c => c.PersonaId)
-            .OnDelete(DeleteBehavior.Cascade); 
+            .OnDelete(DeleteBehavior.Cascade);
 
         builder.Entity<ProcesoVinculado>()
             .HasOne(pv => pv.Persona)
-            .WithMany()
+            .WithMany(p => p.ProcesosVinculados)
             .HasForeignKey(pv => pv.PersonaId)
-            .OnDelete(DeleteBehavior.Restrict); 
+            .OnDelete(DeleteBehavior.Restrict);
 
         builder.Entity<ProcesoVinculado>()
             .HasOne(pv => pv.Contrato)
-            .WithMany()
+            .WithMany(c => c.ProcesosVinculados)
             .HasForeignKey(pv => pv.ContratoId)
             .OnDelete(DeleteBehavior.Cascade);
 
         builder.Entity<Aprobacion>()
             .HasOne(a => a.Persona)
-            .WithMany()
+            .WithMany(p => p.Aprobaciones)
             .HasForeignKey(a => a.PersonaId)
             .OnDelete(DeleteBehavior.Restrict);
 
         builder.Entity<Aprobacion>()
             .HasOne(a => a.ProcesoVinculado)
-            .WithMany()
+            .WithMany(pv => pv.Aprobaciones)
             .HasForeignKey(a => a.ProcesoVinculadoId)
-            .OnDelete(DeleteBehavior.Cascade);
-
-        builder.Entity<Documento>()
-            .HasOne(d => d.Persona)
-            .WithMany()
-            .HasForeignKey(d => d.PersonaId)
             .OnDelete(DeleteBehavior.Restrict);
-
-        builder.Entity<Documento>()
-            .HasOne(d => d.ProcesoVinculado)
-            .WithMany()
-            .HasForeignKey(d => d.ProcesoVinculadoId)
-            .OnDelete(DeleteBehavior.Cascade);
 
         builder.Entity<Notificacion>()
             .HasOne(n => n.Persona)
-            .WithMany()
+            .WithMany(p => p.Notificaciones)
             .HasForeignKey(n => n.PersonaId)
             .OnDelete(DeleteBehavior.Restrict);
 
         builder.Entity<Notificacion>()
             .HasOne(n => n.ProcesoVinculado)
-            .WithMany()
+            .WithMany(pv => pv.Notificaciones)
             .HasForeignKey(n => n.ProcesoVinculadoId)
-            .OnDelete(DeleteBehavior.Cascade);
+            .OnDelete(DeleteBehavior.Restrict);
+
+        builder.Entity<Documento>()
+            .HasOne(d => d.Persona)
+            .WithMany(p => p.Documentos)
+            .HasForeignKey(d => d.PersonaId)
+            .OnDelete(DeleteBehavior.Restrict);
+
+        builder.Entity<Documento>()
+            .HasOne(d => d.ProcesoVinculado)
+            .WithMany(pv => pv.Documentos)
+            .HasForeignKey(d => d.ProcesoVinculadoId)
+            .OnDelete(DeleteBehavior.Restrict);
 
         builder.Entity<Persona>()
             .Property(p => p.Telefono)

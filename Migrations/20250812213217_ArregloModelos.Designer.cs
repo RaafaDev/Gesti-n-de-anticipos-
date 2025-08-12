@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GestionAnticiposApp.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250812193519_CreacionModelos")]
-    partial class CreacionModelos
+    [Migration("20250812213217_ArregloModelos")]
+    partial class ArregloModelos
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -117,24 +117,14 @@ namespace GestionAnticiposApp.Migrations
                     b.Property<int>("PersonaId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("PersonaId1")
-                        .HasColumnType("int");
-
                     b.Property<int>("ProcesoVinculadoId")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("ProcesoVinculadoId1")
                         .HasColumnType("int");
 
                     b.HasKey("AprobacionId");
 
                     b.HasIndex("PersonaId");
 
-                    b.HasIndex("PersonaId1");
-
                     b.HasIndex("ProcesoVinculadoId");
-
-                    b.HasIndex("ProcesoVinculadoId1");
 
                     b.ToTable("Aprobaciones", (string)null);
                 });
@@ -168,9 +158,6 @@ namespace GestionAnticiposApp.Migrations
                     b.Property<int>("PersonaId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("PersonaId1")
-                        .HasColumnType("int");
-
                     b.Property<string>("Referencia")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -182,8 +169,6 @@ namespace GestionAnticiposApp.Migrations
                     b.HasKey("ContratoId");
 
                     b.HasIndex("PersonaId");
-
-                    b.HasIndex("PersonaId1");
 
                     b.ToTable("Contratos", (string)null);
                 });
@@ -213,13 +198,7 @@ namespace GestionAnticiposApp.Migrations
                     b.Property<int>("PersonaId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("PersonaId1")
-                        .HasColumnType("int");
-
                     b.Property<int>("ProcesoVinculadoId")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("ProcesoVinculadoId1")
                         .HasColumnType("int");
 
                     b.Property<string>("Tipo")
@@ -230,11 +209,7 @@ namespace GestionAnticiposApp.Migrations
 
                     b.HasIndex("PersonaId");
 
-                    b.HasIndex("PersonaId1");
-
                     b.HasIndex("ProcesoVinculadoId");
-
-                    b.HasIndex("ProcesoVinculadoId1");
 
                     b.ToTable("Documento", (string)null);
                 });
@@ -258,13 +233,7 @@ namespace GestionAnticiposApp.Migrations
                     b.Property<int>("PersonaId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("PersonaId1")
-                        .HasColumnType("int");
-
                     b.Property<int>("ProcesoVinculadoId")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("ProcesoVinculadoId1")
                         .HasColumnType("int");
 
                     b.Property<string>("Tipo")
@@ -275,11 +244,7 @@ namespace GestionAnticiposApp.Migrations
 
                     b.HasIndex("PersonaId");
 
-                    b.HasIndex("PersonaId1");
-
                     b.HasIndex("ProcesoVinculadoId");
-
-                    b.HasIndex("ProcesoVinculadoId1");
 
                     b.ToTable("Notificaciones", (string)null);
                 });
@@ -365,9 +330,6 @@ namespace GestionAnticiposApp.Migrations
                     b.Property<int>("ContratoId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("ContratoId1")
-                        .HasColumnType("int");
-
                     b.Property<string>("Estado")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -382,9 +344,6 @@ namespace GestionAnticiposApp.Migrations
                     b.Property<int>("PersonaId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("PersonaId1")
-                        .HasColumnType("int");
-
                     b.Property<string>("Tipo")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -396,11 +355,7 @@ namespace GestionAnticiposApp.Migrations
 
                     b.HasIndex("ContratoId");
 
-                    b.HasIndex("ContratoId1");
-
                     b.HasIndex("PersonaId");
-
-                    b.HasIndex("PersonaId1");
 
                     b.ToTable("ProcesosVinculados", (string)null);
                 });
@@ -555,24 +510,16 @@ namespace GestionAnticiposApp.Migrations
             modelBuilder.Entity("GestionAnticiposApp.Models.Aprobacion", b =>
                 {
                     b.HasOne("GestionAnticiposApp.Models.Persona", "Persona")
-                        .WithMany()
+                        .WithMany("Aprobaciones")
                         .HasForeignKey("PersonaId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("GestionAnticiposApp.Models.Persona", null)
-                        .WithMany("Aprobaciones")
-                        .HasForeignKey("PersonaId1");
-
                     b.HasOne("GestionAnticiposApp.Models.ProcesoVinculado", "ProcesoVinculado")
-                        .WithMany()
-                        .HasForeignKey("ProcesoVinculadoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("GestionAnticiposApp.Models.ProcesoVinculado", null)
                         .WithMany("Aprobaciones")
-                        .HasForeignKey("ProcesoVinculadoId1");
+                        .HasForeignKey("ProcesoVinculadoId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
 
                     b.Navigation("Persona");
 
@@ -582,14 +529,10 @@ namespace GestionAnticiposApp.Migrations
             modelBuilder.Entity("GestionAnticiposApp.Models.Contrato", b =>
                 {
                     b.HasOne("GestionAnticiposApp.Models.Persona", "Persona")
-                        .WithMany()
+                        .WithMany("Contratos")
                         .HasForeignKey("PersonaId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.HasOne("GestionAnticiposApp.Models.Persona", null)
-                        .WithMany("Contratos")
-                        .HasForeignKey("PersonaId1");
 
                     b.Navigation("Persona");
                 });
@@ -597,24 +540,16 @@ namespace GestionAnticiposApp.Migrations
             modelBuilder.Entity("GestionAnticiposApp.Models.Documento", b =>
                 {
                     b.HasOne("GestionAnticiposApp.Models.Persona", "Persona")
-                        .WithMany()
+                        .WithMany("Documentos")
                         .HasForeignKey("PersonaId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("GestionAnticiposApp.Models.Persona", null)
-                        .WithMany("Documentos")
-                        .HasForeignKey("PersonaId1");
-
                     b.HasOne("GestionAnticiposApp.Models.ProcesoVinculado", "ProcesoVinculado")
-                        .WithMany()
-                        .HasForeignKey("ProcesoVinculadoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("GestionAnticiposApp.Models.ProcesoVinculado", null)
                         .WithMany("Documentos")
-                        .HasForeignKey("ProcesoVinculadoId1");
+                        .HasForeignKey("ProcesoVinculadoId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
 
                     b.Navigation("Persona");
 
@@ -624,24 +559,16 @@ namespace GestionAnticiposApp.Migrations
             modelBuilder.Entity("GestionAnticiposApp.Models.Notificacion", b =>
                 {
                     b.HasOne("GestionAnticiposApp.Models.Persona", "Persona")
-                        .WithMany()
+                        .WithMany("Notificaciones")
                         .HasForeignKey("PersonaId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("GestionAnticiposApp.Models.Persona", null)
-                        .WithMany("Notificaciones")
-                        .HasForeignKey("PersonaId1");
-
                     b.HasOne("GestionAnticiposApp.Models.ProcesoVinculado", "ProcesoVinculado")
-                        .WithMany()
-                        .HasForeignKey("ProcesoVinculadoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("GestionAnticiposApp.Models.ProcesoVinculado", null)
                         .WithMany("Notificaciones")
-                        .HasForeignKey("ProcesoVinculadoId1");
+                        .HasForeignKey("ProcesoVinculadoId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
 
                     b.Navigation("Persona");
 
@@ -651,24 +578,16 @@ namespace GestionAnticiposApp.Migrations
             modelBuilder.Entity("GestionAnticiposApp.Models.ProcesoVinculado", b =>
                 {
                     b.HasOne("GestionAnticiposApp.Models.Contrato", "Contrato")
-                        .WithMany()
+                        .WithMany("ProcesosVinculados")
                         .HasForeignKey("ContratoId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("GestionAnticiposApp.Models.Contrato", null)
-                        .WithMany("ProcesosVinculados")
-                        .HasForeignKey("ContratoId1");
-
                     b.HasOne("GestionAnticiposApp.Models.Persona", "Persona")
-                        .WithMany()
+                        .WithMany("ProcesosVinculados")
                         .HasForeignKey("PersonaId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
-
-                    b.HasOne("GestionAnticiposApp.Models.Persona", null)
-                        .WithMany("ProcesosVinculados")
-                        .HasForeignKey("PersonaId1");
 
                     b.Navigation("Contrato");
 

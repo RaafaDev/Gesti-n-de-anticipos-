@@ -16,9 +16,9 @@ namespace GestionAnticiposApp.Models
 
         public int PersonaId { get; set; }
         public Persona Persona { get; set; }
+
         public int ContratoId { get; set; }
         public Contrato Contrato { get; set; }
-
 
         public ICollection<Notificacion> Notificaciones { get; set; }
         public ICollection<Aprobacion> Aprobaciones { get; set; }

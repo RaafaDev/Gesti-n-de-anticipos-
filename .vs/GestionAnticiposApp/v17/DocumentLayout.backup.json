@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\cristiam.cadena\\source\\repos\\Gesti-n-de-anticipos-\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8ECF97AA-7052-A617-CCA8-947C7B2A95A9}|GestionAnticiposApp.csproj|c:\\users\\cristiam.cadena\\source\\repos\\gesti-n-de-anticipos-\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ECF97AA-7052-A617-CCA8-947C7B2A95A9}|GestionAnticiposApp.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cristiam.cadena\\source\\repos\\Gesti-n-de-anticipos-\\Migrations\\20250812213217_ArregloModelos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250812213217_ArregloModelos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8ECF97AA-7052-A617-CCA8-947C7B2A95A9}|GestionAnticiposApp.csproj|c:\\users\\cristiam.cadena\\source\\repos\\gesti-n-de-anticipos-\\migrations\\20250812193519_creacionmodelos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ECF97AA-7052-A617-CCA8-947C7B2A95A9}|GestionAnticiposApp.csproj|solutionrelative:migrations\\20250812193519_creacionmodelos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8ECF97AA-7052-A617-CCA8-947C7B2A95A9}|GestionAnticiposApp.csproj|c:\\users\\cristiam.cadena\\source\\repos\\gesti-n-de-anticipos-\\models\\documento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ECF97AA-7052-A617-CCA8-947C7B2A95A9}|GestionAnticiposApp.csproj|solutionrelative:models\\documento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8ECF97AA-7052-A617-CCA8-947C7B2A95A9}|GestionAnticiposApp.csproj|c:\\users\\cristiam.cadena\\source\\repos\\gesti-n-de-anticipos-\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ECF97AA-7052-A617-CCA8-947C7B2A95A9}|GestionAnticiposApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cristiam.cadena\\source\\repos\\Gesti-n-de-anticipos-\\Migrations\\20250812192922_CreacionModelos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250812192922_CreacionModelos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8ECF97AA-7052-A617-CCA8-947C7B2A95A9}|GestionAnticiposApp.csproj|c:\\users\\cristiam.cadena\\source\\repos\\gesti-n-de-anticipos-\\models\\procesovinculado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ECF97AA-7052-A617-CCA8-947C7B2A95A9}|GestionAnticiposApp.csproj|solutionrelative:models\\procesovinculado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +22,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250812213217_ArregloModelos.cs",
+              "DocumentMoniker": "C:\\Users\\cristiam.cadena\\source\\repos\\Gesti-n-de-anticipos-\\Migrations\\20250812213217_ArregloModelos.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250812213217_ArregloModelos.cs",
+              "ToolTip": "C:\\Users\\cristiam.cadena\\source\\repos\\Gesti-n-de-anticipos-\\Migrations\\20250812213217_ArregloModelos.cs",
+              "RelativeToolTip": "Migrations\\20250812213217_ArregloModelos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T21:32:18.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Documento.cs",
+              "DocumentMoniker": "C:\\Users\\cristiam.cadena\\source\\repos\\Gesti-n-de-anticipos-\\Models\\Documento.cs",
+              "RelativeDocumentMoniker": "Models\\Documento.cs",
+              "ToolTip": "C:\\Users\\cristiam.cadena\\source\\repos\\Gesti-n-de-anticipos-\\Models\\Documento.cs",
+              "RelativeToolTip": "Models\\Documento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T21:29:27.881Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -85,55 +107,8 @@
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20250812193519_CreacionModelos.cs",
-              "DocumentMoniker": "C:\\Users\\cristiam.cadena\\source\\repos\\Gesti-n-de-anticipos-\\Migrations\\20250812193519_CreacionModelos.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250812193519_CreacionModelos.cs",
-              "ToolTip": "C:\\Users\\cristiam.cadena\\source\\repos\\Gesti-n-de-anticipos-\\Migrations\\20250812193519_CreacionModelos.cs",
-              "RelativeToolTip": "Migrations\\20250812193519_CreacionModelos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T19:35:19.352Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\cristiam.cadena\\source\\repos\\Gesti-n-de-anticipos-\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\cristiam.cadena\\source\\repos\\Gesti-n-de-anticipos-\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T19:34:04.694Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20250812192922_CreacionModelos.cs",
-              "DocumentMoniker": "C:\\Users\\cristiam.cadena\\source\\repos\\Gesti-n-de-anticipos-\\Migrations\\20250812192922_CreacionModelos.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250812192922_CreacionModelos.cs",
-              "ToolTip": "C:\\Users\\cristiam.cadena\\source\\repos\\Gesti-n-de-anticipos-\\Migrations\\20250812192922_CreacionModelos.cs",
-              "RelativeToolTip": "Migrations\\20250812192922_CreacionModelos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T19:29:22.959Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\cristiam.cadena\\source\\repos\\Gesti-n-de-anticipos-\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\cristiam.cadena\\source\\repos\\Gesti-n-de-anticipos-\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAkwDAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T14:23:57.024Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Bookmark",
@@ -142,6 +117,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProcesoVinculado.cs",
+              "DocumentMoniker": "C:\\Users\\cristiam.cadena\\source\\repos\\Gesti-n-de-anticipos-\\Models\\ProcesoVinculado.cs",
+              "RelativeDocumentMoniker": "Models\\ProcesoVinculado.cs",
+              "ToolTip": "C:\\Users\\cristiam.cadena\\source\\repos\\Gesti-n-de-anticipos-\\Models\\ProcesoVinculado.cs",
+              "RelativeToolTip": "Models\\ProcesoVinculado.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAjwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T21:28:35.758Z",
+              "EditorCaption": ""
             }
           ]
         }

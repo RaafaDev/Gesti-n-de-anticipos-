@@ -8,6 +8,7 @@ namespace GestionAnticiposApp.Models
         public string Estado { get; set; }
         public string Mensaje { get; set; }
         public DateTime Fecha { get; set; }
+
         public int PersonaId { get; set; }
         public Persona Persona { get; set; }
 
