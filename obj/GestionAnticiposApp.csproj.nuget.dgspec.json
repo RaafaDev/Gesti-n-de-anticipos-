@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rafael.ramirez\\source\\repos\\GestionAnticiposApp\\GestionAnticiposApp.csproj": {}
+    "C:\\Users\\cristiam.cadena\\Source\\Repos\\Gesti-n-de-anticipos-\\GestionAnticiposApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rafael.ramirez\\source\\repos\\GestionAnticiposApp\\GestionAnticiposApp.csproj": {
+    "C:\\Users\\cristiam.cadena\\Source\\Repos\\Gesti-n-de-anticipos-\\GestionAnticiposApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rafael.ramirez\\source\\repos\\GestionAnticiposApp\\GestionAnticiposApp.csproj",
+        "projectUniqueName": "C:\\Users\\cristiam.cadena\\Source\\Repos\\Gesti-n-de-anticipos-\\GestionAnticiposApp.csproj",
         "projectName": "GestionAnticiposApp",
-        "projectPath": "C:\\Users\\rafael.ramirez\\source\\repos\\GestionAnticiposApp\\GestionAnticiposApp.csproj",
-        "packagesPath": "C:\\Users\\rafael.ramirez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rafael.ramirez\\source\\repos\\GestionAnticiposApp\\obj\\",
+        "projectPath": "C:\\Users\\cristiam.cadena\\Source\\Repos\\Gesti-n-de-anticipos-\\GestionAnticiposApp.csproj",
+        "packagesPath": "C:\\Users\\cristiam.cadena\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cristiam.cadena\\Source\\Repos\\Gesti-n-de-anticipos-\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rafael.ramirez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\cristiam.cadena\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -99,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

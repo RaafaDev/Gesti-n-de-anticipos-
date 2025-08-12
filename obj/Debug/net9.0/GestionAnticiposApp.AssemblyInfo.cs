@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GestionAnticiposApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bcafc05265bb7d6391045db8a63a318b60010584")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2bcfa2c86cebd6f5df3685be838f73f2242417f")]
 [assembly: System.Reflection.AssemblyProductAttribute("GestionAnticiposApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GestionAnticiposApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
